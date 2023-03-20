@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Nutrifun</title>
+  <link rel="stylesheet" href="aide.css">
+  <meta http-equiv="X-UA-Compatible” content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+
+<body>
+
+  <header>
+    <h1 class="logo">Nutrifun</h1>
+    <nav class="navigation">
+      <a href="../index.html">Accueil</a>
+      <a href="recettes.html">Recettes</a>
+      <a href="aide.html">Assistance</a>
+      <a href="regimes.html">Régimes</a>
+      <button class="btnLogin-popup">Se connecter</button>
+    </nav>
+  </header>
+  
+  <div class="wrapper">
+    <span class="icon-close">
+      <ion-icon name="close"></ion-icon>
+    </span>
+
+    <div class="form-box login">
+      <h2>Connexion</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+          <input type="password" required>
+          <label>Mot de passe</label>
+        </div>
+        <div class="remember-forgot">
+            <label><input type="checkbox">Rester connecter</label>
+            <a href="#">Mot de passe oublié ?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="login-register">
+            <p>Vous n'avez pas de compte <a href="#" class="register-link">Créer un compte </a></p>
+          </div>        
+      </form>
+    </div>
+
+
+    <div class="form-box register">
+      <h2>Créer un compte</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+          <input type="text" required>
+          <label>Nom d'utilisateur</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+          <input type="password" required>
+          <label>Mot de passe</label>
+        </div>
+        <div class="remember-forgot">
+            <label><input type="checkbox">J'accepte les termes et conditions</label>
+          </div>
+          <button type="submit" class="btn">Créer un compte</button>
+          <div class="login-register">
+            <p>Vous avez déjà un compte <a href="#" class="login-link">Se connecter</a></p>
+          </div>        
+      </form>
+    </div>
+  </div>
+
+  <!-- formulaire assistance-->
+
+  <div class="container">
+    <h1>GET IN TOUCH</h1>
+    <p>Have any questions or suggestions? Drop us a message</p>
+    <form>
+      <div class="row">
+        <div class="column">
+          <label for="name">Nom</label>
+          <input type="text"
+          id="name" placeholder="Votre Nom ici">
+        </div>
+        <div class="column">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="votre Email ici">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <label for="subject">Sujet</label>
+          <input type="text" id="subject" placeholder="le sujet de votre prise de contact">
+        </div>
+        <div class="column">
+          <label for="contact">Numéro de téléphone</label>
+          <input type="tel" id="contact" placeholder="Votre numéro de téléphone">
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+        <label for="issue">Décrivez nous votre problème</label>
+        <textarea id="issue" placeholder="Les détails du problème ici" rows="3"></textarea>
+        </div>
+      </div>
+      <button>Submit</button>
+    </form>
+
+
+
+
+
+  <script src="../js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+
+
+</body

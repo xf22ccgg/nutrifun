@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Nutrifun</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="recettes.css">
+  <meta http-equiv="X-UA-Compatible” content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+
+<body>
+
+  <header>
+    <h1 class="logo">Nutrifun</h1>
+    <nav class="navigation">
+      <a href="../index.html">Accueil</a>
+      <a href="recettes.html">Recettes</a>
+      <a href="aide.html">Assistance</a>
+      <a href="regimes.html">Régimes</a>
+      <button class="btnLogin-popup">Se connecter</button>
+    </nav>
+  </header>
+  
+  <div class="wrapper">
+    <span class="icon-close">
+      <ion-icon name="close"></ion-icon>
+    </span>
+
+    <div class="form-box login">
+      <h2>Connexion</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+          <input type="password" required>
+          <label>Mot de passe</label>
+        </div>
+        <div class="remember-forgot">
+            <label><input type="checkbox">Rester connecter</label>
+            <a href="#">Mot de passe oublié ?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <div class="login-register">
+            <p>Vous n'avez pas de compte <a href="#" class="register-link">Créer un compte </a></p>
+          </div>        
+      </form>
+    </div>
+
+
+    <div class="form-box register">
+      <h2>Créer un compte</h2>
+      <form action="#">
+        <div class="input-box">
+          <span class="icon"><ion-icon name="person-circle-outline"></ion-icon></span>
+          <input type="text" required>
+          <label>Nom d'utilisateur</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+          <input type="email" required>
+          <label>Email</label>
+        </div>
+        <div class="input-box">
+          <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+          <input type="password" required>
+          <label>Mot de passe</label>
+        </div>
+        <div class="remember-forgot">
+            <label><input type="checkbox">J'accepte les termes et conditions</label>
+          </div>
+          <button type="submit" class="btn">Créer un compte</button>
+          <div class="login-register">
+            <p>Vous avez déjà un compte <a href="#" class="login-link">Se connecter</a></p>
+          </div>        
+      </form>
+    </div>
+  </div>
+
+  <!--swipe-->
+  <section class="swiper mySwiper">
+
+    <div class="swiper-wrapper">
+    
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="../image/plat1.jpg"” alt="card image">
+        </div>
+    
+        <div class="card__content">
+          <span class="card_title">Riz cantonnais</span>
+          <span class="card__name">Prise de poids</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Sit veritatis labore
+          provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="../image/plat2.jpg"” alt="card image">
+        </div>
+    
+        <div class="card__content">
+          <span class="card_title">salade César</span>
+          <span class="card__name">Perte de poids/réaprendre </span>
+          <p class="card__text">Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Sit veritatis labore
+          provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="../image/plat3.jpg"” alt="card image">
+        </div>
+    
+        <div class="card__content">
+          <span class="card_title">Chilicon Carne</span>
+          <span class="card__name">Prise de poids/réaprendre</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Sit veritatis labore
+          provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="../image/plat4.jpg"” alt="card image">
+        </div>
+    
+        <div class="card__content">
+          <span class="card_title">lasagne</span>
+          <span class="card__name">Prise de poids/réaprendre</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Sit veritatis labore
+          provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="../image/plat5.jpg"” alt="card image">
+        </div>
+    
+        <div class="card__content">
+          <span class="card_title">Fajitas</span>
+          <span class="card__name">Perte de poids/réaprendre</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Sit veritatis labore
+          provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="../image/plat6.jpg"” alt="card image">
+        </div>
+    
+        <div class="card__content">
+          <span class="card_title">Gratin d'auphinois</span>
+          <span class="card__name">Perte de poids/réaprendre</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Sit veritatis labore
+          provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="../image/plat7.jpg"” alt="card image">
+        </div>
+    
+        <div class="card__content">
+          <span class="card_title">Boeuf Bourguignon</span>
+          <span class="card__name">Perte de poids/réaprendre</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Sit veritatis labore
+          provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="../image/plat8.jpg"” alt="card image">
+        </div>
+    
+        <div class="card__content">
+          <span class="card_title">Quiche</span>
+          <span class="card__name">Perte de poids/réaprendre</span>
+          <p class="card__text">Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Sit veritatis labore
+          provident non tempora odio est sunt, ipsum</p>
+          <button class="card__btn">View More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="../js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>
